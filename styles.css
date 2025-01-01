@@ -1,0 +1,38 @@
+/* helper style - css box model */
+.border-blue {
+    border: 1px dotted blue;
+}
+
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #219ebc;
+    color: #001219;
+    border-radius: 12px;
+    border-bottom: 5px solid #1d3557;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: inherit;
+    margin-right: 30px;
+    border: 1px solid transparent;
+}
+
+.avatar:hover {
+    border: 1px solid salmon;
+}
+
+.card:hover .bio {
+    font-style: italic;
+}
